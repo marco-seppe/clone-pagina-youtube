@@ -4,6 +4,10 @@ body {
     background-color: rgba(249, 249, 249, 1);
 }
 
+main {
+    margin-bottom: 16px;
+}
+
 #header-box {
     height: 56px;
     background-color: rgba(255, 255, 255, 1);
@@ -12,7 +16,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .icons {
@@ -25,7 +28,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 #menu-box {
@@ -67,7 +69,7 @@ body {
     justify-content: flex-start;
     flex-direction: row;
     padding-top: 28px;
-    gap: 16px;
+    gap: 25px;
 }
 
 #main-video {
@@ -79,12 +81,44 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-content: flex-start;
-    gap: 12px;
+    gap: 16px;
 }
 
-#side-videos {
-    /* border: solid 1px black; */
+#side-bar {
     width: 415px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.side-videos {
+    display: flex;
+    gap: 16px;
+    height: 90px;
+}
+
+#sdvid-infobox {
+    width: 196px;
+}
+
+.sdvid-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sdvid-channel {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 1);
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+.sdvid-views {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 1);
+    white-space: pre-line;
 }
 
 #infos-box {
@@ -93,7 +127,7 @@ body {
     align-items: center;
 }
 
-#infos-box p {
+.infos-text {
     font-weight: 600;
     font-size: 14px;
     text-wrap: nowrap;
@@ -146,3 +180,28 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+#views-box p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#video-description p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 1);
+    width: 520px;
+    line-height: 16.41px;
+}
+
+#name-channel {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#num-subscribers {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(81, 81, 81, 1);
+}
+
